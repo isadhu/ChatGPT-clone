@@ -14,7 +14,7 @@ export default function Login() {
             alt= 'logo'
         />
         <button className='font-bold text-3xl animate-pulse'
-            onClick={() => signIn('google')}
+            onClick={() => signIn("google")}
             >
             Sign In To ChatGPT
         </button>
